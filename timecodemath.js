@@ -1,6 +1,6 @@
 //JavaScript SMPTE Library
 //Author: me@jared.design
-//Version: Beta 1
+//Version: 1.0
 
 function timecodeMath(operation, framerate, ...timecodes) {
     operation = operation.toLowerCase()
@@ -188,7 +188,7 @@ class Timecode {
     get smpte() {
         let indicator = ":";
         if (this.dropFrame) {
-            indicator = ":"
+            indicator = ";"
         }
         let hh = this.hours;
         let mm = this.minutes;
