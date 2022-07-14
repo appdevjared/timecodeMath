@@ -64,8 +64,7 @@ class Timecode {
         this.framerate = framerate;
         this.totalFrames = time; 
         this.author = "me@jared.design";
-        this.version = "A1.1";
-        this.disclaimer = "This doesn't fully work correctly yet, please don't share";
+        this.version = "1.0";
     }
 
     get pseudoFrames() {
